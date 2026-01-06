@@ -1,5 +1,3 @@
-## Automated-Valuation model aws mlops 
-
 # 🏠 Automated Valuation Model (AVM) - End-to-End MLOps Pipeline
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
