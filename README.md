@@ -1,11 +1,22 @@
 ## Automated-Valuation model aws mlops Deploy
 
+# 🏠 Automated Valuation Model (AVM) - End-to-End MLOps Pipeline
+
+[![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
+[![XGBoost](https://img.shields.io/badge/XGBoost-Model-green.svg)](https://xgboost.readthedocs.io/)
+[![MLflow](https://img.shields.io/badge/MLflow-Tracking-blue.svg)](https://mlflow.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-UI-red.svg)](https://streamlit.io/)
+[![AWS](https://img.shields.io/badge/AWS-ECS%20Fargate-orange.svg)](https://aws.amazon.com/ecs/)
+
+---
+
 
 ## Project Overview
 
 Automated valuation model is an end-to-end machine learning pipeline for predicting housing prices using XGBoost. The project follows ML engineering best practices with modular pipelines, experiment tracking via MLflow, containerization, AWS cloud deployment, and comprehensive testing. The system includes both a REST API and a Streamlit dashboard for interactive predictions.
 
-## Architecture
+
+## 🏗️ Project Architecture
 
 The codebase is organized into distinct pipelines following the flow:
 `Load → Preprocess → Feature Engineering → Train → Tune → Evaluate → Inference → Batch → Serve`
@@ -146,6 +157,19 @@ docker run -p 8501:8501 housing-streamlit
 # Start MLflow UI (view experiments)
 mlflow ui
 ```
+## 📸 Project Gallery
+
+### 1. Poject Demo video
+![Architecture](assets/project_demo.mp4)
+
+### 2. Interactive Dashboard
+![Streamlit Dashboard](assets/dashboard.png)
+
+### 3. Analysis report
+![Analysis report](assets/analysis_report-1.png)
+
+![Analysis report](assets/analysis_report-2.png)
+
 
 ## Key Design Patterns
 
