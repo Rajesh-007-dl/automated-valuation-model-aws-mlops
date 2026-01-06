@@ -159,8 +159,12 @@ mlflow ui
 ```
 ## 📸 Project Gallery
 
-### 1. Poject Demo video
-![Architecture](assets/project_demo.mp4)
+### 1. Project Demo video
+
+
+https://github.com/user-attachments/assets/7887533b-48cb-4534-a24a-6b359af803ae
+
+
 
 ### 2. Interactive Dashboard
 ![Streamlit Dashboard](assets/dashboard.png)
