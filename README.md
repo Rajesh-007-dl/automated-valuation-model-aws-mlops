@@ -1,4 +1,4 @@
-## Automated-Valuation model aws mlops Deploy
+## Automated-Valuation model aws mlops 
 
 # 🏠 Automated Valuation Model (AVM) - End-to-End MLOps Pipeline
 
